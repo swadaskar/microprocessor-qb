@@ -14,7 +14,6 @@ Data Segment
     msg10 db 10,13,"PALINDROME $"
     msg11 db 10,13,"NOT PALINDROME $"
         msg13 db 10,13,"LENGTH IS $"
-        msg12 db 10,13,"Siddhant Wadaskar C22-127 $"
     len db ?
     num2 db ?
     choice db ?
@@ -26,9 +25,6 @@ Code Segment
 start:
     mov ax,data
     mov ds,ax
-        mov dx,offset msg12
-    mov ah,09h
-    INT 21h
     ;Menu
     labe:
     mov dx,offset msg1
