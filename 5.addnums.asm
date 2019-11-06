@@ -2,7 +2,7 @@ Data segment
     msg db,0dh,0ah,"Enter the number of elements:$"
     msg1 db,0dh,0ah,"Enter a number:$"
     space db,0dh,0ah,"$"
-    res db,0dh,0ah,"The minimum number is:$"
+    res db,0dh,0ah,"The average number is:$"
     len db ?
     sum db ?
 Data ends
