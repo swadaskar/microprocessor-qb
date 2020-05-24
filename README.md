@@ -1,6 +1,6 @@
 # Assembly language programs (8086)
 These codes answer a microprocessor(sem-5 MU) question bank. All of these codes run on tasm. The numbered files(codes) are assembly language programs for the following questions numbered from 1-30:
-WAP - Write a program
+* WAP - Write a program
 1. Write a menu based program to add and subtract two 8-bit numbers.
 2. WAP in C to find minimum number from the given numbers using 8086 assembly language.
 3. WAP in C to find GCD of two numbers using 8086 assembly language.
